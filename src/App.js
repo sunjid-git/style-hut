@@ -1,14 +1,16 @@
 import "./App.css";
-import Header from "./components/Header/Header";
+
 import ProductHome from "./components/ProductHome/ProductHome";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Product from "./components/Product/Product";
+import Footer from "./components/HeaderAndFooter/Footer";
+import Header from "./components/HeaderAndFooter/Header";
 
 function App() {
   return (
     <Router>
-      <Header></Header>
+      <Header/>
       <Switch>
       <Route exact path="/">
           <ProductHome></ProductHome>
@@ -22,6 +24,7 @@ function App() {
         </Route>
 
       </Switch>
+      <Footer/>
     </Router>
   );
 }
