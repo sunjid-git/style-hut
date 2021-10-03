@@ -10,15 +10,18 @@
 }
 
 .product-btn {
-    cursor: pointer;
-  background: var(--purple);
+  text-decoration: none;
+  margin: 1rem 0;
+  cursor: pointer;
+  font-weight: bold;
   outline: 0;
-  color: rgb(231, 226, 226);
   border: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 0.8rem 1.5rem;
   border-radius: 50px;
-  box-shadow: 12px 14px 5px -5px rgba(166,132,132,0.58);
+  background: var(--purple);
+  color: rgb(231, 226, 226);
+  box-shadow: 12px 14px 5px -5px rgba(166, 132, 132, 0.58);
   transition: all 0.5s ease-in-out;
 }
 
@@ -26,5 +29,4 @@
   background: rgb(231, 226, 226);
   border: 1px solid #802c6e;
   color: var(--purple);
-  font-weight: bold;
 }

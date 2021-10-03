@@ -17,7 +17,7 @@ const ProductHome = () => {
         setProducts(data);
         setLoading(false);
       });
-  }, []);
+  }, [url]);
 
   // search product
   const getProduct = (e) => {
@@ -28,7 +28,7 @@ const ProductHome = () => {
     product.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())
   );
 
-  console.log("searchedProducts", getSearchedProducts);
+  // console.log("searchedProducts", getSearchedProducts);
 
   return (
     <div className="product-home-page">
