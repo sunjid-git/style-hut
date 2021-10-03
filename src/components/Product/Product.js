@@ -39,11 +39,14 @@ const Product = () => {
             </h3>
 
             <p> {description}</p>
-            <h3>
+
+            <h3 className="product-price">
               Price: {price} <sup>$</sup>
             </h3>
+
             <div>
               <Link to="/" className="product-btn">
+                <i class="fas fa-cart-plus fa-lg"></i>
                 Order Now
               </Link>
             </div>
@@ -52,6 +55,7 @@ const Product = () => {
 
         <div className="back-btn">
           <Link to="/" className="product-btn">
+            <i class="far fa-hand-point-left fa-lg"></i>
             Previous Page
           </Link>
         </div>
