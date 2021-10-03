@@ -1,5 +1,6 @@
 footer {
   background-color: var(--purple);
+  color: var(--gray-white);
   height: 8vh;
   display: grid;
   place-items: center;

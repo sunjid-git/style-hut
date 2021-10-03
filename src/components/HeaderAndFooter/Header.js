@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header>
-      sunjid
+      <h1>Sunjid Hasan</h1>
     </header>
   );
 };

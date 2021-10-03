@@ -2,3 +2,8 @@ header{
   background-color: var(--purple);
   height: 10vh;
 }
+
+header h1{
+  color: var(--gray-white);
+  font-size: 2rem;
+}

@@ -8,6 +8,7 @@
 :root {
   --purple: #802c6e;
   --purple-hover: #6e2b60;
+  --gray-white:rgb(230, 222, 222);
 }
 
 .product-btn {
