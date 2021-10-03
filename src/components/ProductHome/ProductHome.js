@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
+import "./ProductHome.css";
+import loadingGif from "../../images/loading.gif";
 
 import AllProduct from "../AllProduct/AllProduct";
 
 const ProductHome = () => {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState("");
+  const [loading, setLoading] = useState(true);
 
   const url = `https://fakestoreapi.com/products`;
   useEffect(() => {
@@ -12,7 +15,7 @@ const ProductHome = () => {
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
-        // console.log(data);
+        setLoading(false);
       });
   }, []);
 
@@ -22,21 +25,27 @@ const ProductHome = () => {
   };
 
   const getSearchedProducts = products.filter((product) =>
-  product.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+    product.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())
   );
 
-  console.log('searchedProducts', getSearchedProducts);
+  console.log("searchedProducts", getSearchedProducts);
 
   return (
-    <div>
-      <h1>Total Existing Products: {products.length}</h1>
-
+    <div className="product-home-page">
+      <h1>All Products</h1>
       <input
         type="text"
         onChange={getProduct}
-        placeholder="Search Product..."
+        placeholder="Search Product Here..."
       />
 
+      <div className="loading">
+        {loading ? (
+          <img src={loadingGif} alt="Productsloading..." className="loading" />
+        ) : (
+          ""
+        )}
+      </div>
       <div className="product-show-case">
         {getSearchedProducts.map((product) => (
           <AllProduct key={product.id} product={product}></AllProduct>

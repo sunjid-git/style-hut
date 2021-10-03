@@ -1,0 +1,27 @@
+.product-home-page {
+  text-align: center;
+  /* background-color: black; */
+  margin: 5vw;
+}
+
+.product-home-page h1 {
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.product-home-page input[type="text"] {
+  background-color: rgb(230, 225, 230);
+
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 50px;
+}
+.product-show-case {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+
+}

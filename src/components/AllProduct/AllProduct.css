@@ -1,0 +1,13 @@
+.single-product{
+    background-color: rgb(226, 229, 232);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.single-product img{
+    height: 275px;
+    width: 250px;
+}
