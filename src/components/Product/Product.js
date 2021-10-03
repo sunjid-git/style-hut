@@ -21,9 +21,9 @@ const Product = () => {
         setProducts(data);
         console.log("data", data);
       });
-  }, []);
+  }, [url]);
 
-  const { image, title, rating, description, category, price } = products;
+  const { image, title, description, category, price } = products;
   return (
     <>
       <div className="separate-product">

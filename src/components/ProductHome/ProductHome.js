@@ -41,7 +41,7 @@ const ProductHome = () => {
 
       <div className="loading">
         {loading ? (
-          <img src={loadingGif} alt="Productsloading..." className="loading" />
+          <img src={loadingGif} alt="loading..." className="loading" />
         ) : (
           ""
         )}
