@@ -1,4 +1,5 @@
 .single-product {
+  
   color: var(--purple);
   display: flex;
   flex-direction: column;
@@ -7,22 +8,21 @@
   border-radius: 15px;
   box-shadow: 9px 10px 5px -5px rgba(166, 132, 132, 0.58);
   transition: all .5s ease-in-out; 
+  padding: 1rem;
 }
 
 .single-product:hover {
   box-shadow: 9px 10px 5px -5px rgba(201, 188, 188, 0.58);
   background-color: rgb(242, 243, 245);
 }
-.single-product .price {
-  margin: 0.5rem 0;
-}
+.single-product .price, 
 .see-product-details {
-  margin: 0.8rem 0;
+  margin: 0.5rem 0;
 }
 .single-product img {
   height: 275px;
   width: 250px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .rating {
