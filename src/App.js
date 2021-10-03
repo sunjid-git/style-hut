@@ -1,7 +1,6 @@
 import "./App.css";
 
 import ProductHome from "./components/ProductHome/ProductHome";
-
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Product from "./components/Product/Product";
 import Footer from "./components/HeaderAndFooter/Footer";
