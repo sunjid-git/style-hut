@@ -23,7 +23,7 @@ const AllProduct = (props) => {
 
       <Link to={`/products/${id}`} className="product-btn">
         <i class="fas fa-globe"></i>
-        See Details
+        𝓢𝓮𝓮 𝓓𝓮𝓽𝓪𝓲𝓵𝓼
       </Link>
 
       {rating.rate < 5 ? (

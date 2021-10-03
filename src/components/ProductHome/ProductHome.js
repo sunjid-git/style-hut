@@ -32,11 +32,12 @@ const ProductHome = () => {
 
   return (
     <div className="product-home-page">
-      <h1>All Products</h1>
+
+      <h1>𝓐𝓵𝓵 𝓟𝓻𝓸𝓭𝓾𝓬𝓽𝓼</h1>
       <input
         type="text"
         onChange={getProduct}
-        placeholder="Search Product Here..."
+        placeholder="𝓢𝓮𝓪𝓻𝓬𝓱 𝓟𝓻𝓸𝓭𝓾𝓬𝓽"
       />
 
       <div className="loading">
