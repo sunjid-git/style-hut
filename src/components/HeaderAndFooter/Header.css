@@ -29,7 +29,7 @@ header h1 {
 }
 .nav-links a::after {
   content: "";
-  top: 2.3rem;
+  top: 150%;
   left: 0;
   height: 6px;
   width: 0;
@@ -47,6 +47,9 @@ header h1 {
     flex-direction: column;
     height: 100%;
     margin-bottom: 1rem;
+  }
+  .nav-elements h1{
+    margin-top: 1rem;
   }
   .nav-links a {
     /* margin-top: 1rem 0; */
