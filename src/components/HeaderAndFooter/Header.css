@@ -13,9 +13,11 @@ header {
   justify-content: space-between;
   /* background-color: #fff; */
 }
-header h1 {
+.header-title {
   color: var(--gray-white);
   font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
 }
 .nav-links a {
   text-decoration: none;
