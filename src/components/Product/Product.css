@@ -1,7 +1,7 @@
 .separate-product {
   width: 85vw;
   /* height: 82vh; */
-  height: 100%;
+  min-height: 82vh;
   margin: 0 auto;
   color: var(--purple);
  
@@ -48,7 +48,9 @@
 }
 .product-left img {
   border-radius: 10px;
-  height: 300px;
+  max-height: 16rem;
+  max-width: 18rem;
+  
 }
 
 /* product-right */
