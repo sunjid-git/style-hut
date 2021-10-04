@@ -22,7 +22,7 @@ const AllProduct = (props) => {
       </p>
 
       <Link to={`/products/${id}`} className="product-btn">
-        <i class="fas fa-globe"></i>
+        <i className="fas fa-globe"></i>
         𝓢𝓮𝓮 𝓓𝓮𝓽𝓪𝓲𝓵𝓼
       </Link>
 

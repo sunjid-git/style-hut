@@ -8,19 +8,29 @@
   font-size: 3rem;
   color: var(--purple);
 }
-
-.product-home-page input[type="text"] {
+.search-input{
+  background-color: rgb(230, 225, 230);
+  border-radius: 50px;
+  display: inline-block;
+  margin: 2rem 0;
+}
+.search-input i{
+  margin-left: 1.5rem;
+  color: var(--purple);
+}
+.search-input input[type="text"] {
   background-color: rgb(230, 225, 230);
   outline: none;
   border: none;
-  font-size: 1rem;
-  margin: 2rem 0;
+  font-size: 1.2rem;
   padding: 1rem;
   border-radius: 50px;
 }
+
 .product-show-case {
   display: grid;
-  grid-gap: 3rem;
+  grid-gap: 2rem;
+  margin-top: 2.5rem;
 }
 
 @media screen and (min-width: 400px) {

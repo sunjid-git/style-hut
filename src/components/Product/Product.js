@@ -46,7 +46,7 @@ const Product = () => {
 
             <div>
               <Link to="/" className="product-btn">
-                <i class="fas fa-cart-plus fa-lg"></i>
+                <i className="fas fa-cart-plus fa-lg"></i>
                 𝓞𝓻𝓭𝓮𝓻 𝓝𝓸𝔀
               </Link>
             </div>
@@ -55,7 +55,7 @@ const Product = () => {
 
         <div className="back-btn">
           <Link to="/" className="product-btn">
-            <i class="far fa-hand-point-left fa-lg"></i>
+            <i className="far fa-hand-point-left fa-lg"></i>
              𝓟𝓻𝓮𝓿𝓲𝓸𝓾𝓼 𝓟𝓪𝓰𝓮
           </Link>
         </div>

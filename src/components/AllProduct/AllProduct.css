@@ -8,7 +8,7 @@
   border-radius: 15px;
   box-shadow: 9px 10px 5px -5px rgba(166, 132, 132, 0.58);
   transition: all .5s ease-in-out; 
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
 
 .single-product:hover {
@@ -20,8 +20,8 @@
   margin: 0.5rem 0;
 }
 .single-product img {
-  height: 275px;
-  width: 250px;
+  height: 260px;
+  width: 95%;
   margin-bottom: 1.5rem;
 }
 
