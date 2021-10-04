@@ -22,9 +22,6 @@ const ProductHome = () => {
       });
   }, [url]);
 
-  // if(category == ''){
-  //   return 
-  // }
 
   // category selection
   const matchedCategory = products.filter(product => product.category === category);
@@ -46,7 +43,7 @@ const ProductHome = () => {
       <h1>𝓐𝓵𝓵 𝓟𝓻𝓸𝓭𝓾𝓬𝓽𝓼</h1>
 
       <div className="search-input">
-        <i class="fas fa-search fa-lg"></i>
+        <i className="fas fa-search fa-lg"></i>
         <input type="text" onChange={getProduct} placeholder="𝓢𝓮𝓪𝓻𝓬𝓱 𝓟𝓻𝓸𝓭𝓾𝓬𝓽" />
       </div>
 
