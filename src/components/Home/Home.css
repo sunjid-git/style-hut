@@ -1,7 +1,46 @@
 .home-page{
-    background-color: rgb(184, 166, 166);
-    height: 90vh;
+    background-color: rgb(236, 228, 236);
+    min-height: 90vh;
     width: 80%;
     margin: 0 auto;
+    display:grid;
+    place-items: center;
 }
+
+.product-home-page-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+    
+}
+@media screen and (max-width: 768px){
+    .product-home-page-inner{
+
+        grid-template-columns: 1fr; 
+
+        
+    }
+}
+.home-div {
+    margin: 1rem;
+    padding:1rem;
+    color: var(--purple);
+}
+.home-div  h1{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.home-div  p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.home-div img{
+    width: 90%;
+    height: 75%;
+    border-radius: 15px;
+}
+
 

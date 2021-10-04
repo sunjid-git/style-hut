@@ -9,14 +9,11 @@ const Header = () => {
         <h1>𝓢𝓽𝔂𝓵𝓮 𝓗𝓾𝓽 </h1>
 
         <div className="nav-links">
-         
-            <Link to="/">Home</Link>
-            <Link to="/">About</Link>
-            <Link to="/">Contact</Link>
-            <Link to="/">Login</Link>
-        
+          <Link to="/">Home</Link>
+          <Link to="/productHome">Products</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/login">Login</Link>
         </div>
-
       </div>
     </header>
   );

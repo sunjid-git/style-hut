@@ -1,9 +1,7 @@
 header {
   background-color: var(--purple);
-  /* height: 10vh; */
   height: 100%;
   display: grid;
-  /* place-items: center; */
 }
 .nav-elements {
   height: 10vh;
@@ -29,9 +27,9 @@ header h1 {
 }
 .nav-links a::after {
   content: "";
-  top: 150%;
+  top: 1.7rem;
   left: 0;
-  height: 6px;
+  height: 1rem;
   width: 0;
   border-bottom: 5px solid rgb(233, 226, 226);
   position: absolute;
