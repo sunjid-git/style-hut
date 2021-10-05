@@ -10,6 +10,15 @@
   --purple-hover: #6e2b60;
   --gray-white:rgb(230, 222, 222);
 }
+input{
+    color: var(--purple);
+    background-color: #EDE7E7;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+}
+
+
 
 .product-btn {
   text-decoration: none;

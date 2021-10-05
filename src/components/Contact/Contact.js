@@ -6,8 +6,9 @@ import contact from "../../images/contact.svg";
 const Contact = () => {
   return (
    
-      <div className="contact-page">
-
+      <div className="contact-page-container">
+        <h1>𝓒𝓸𝓷𝓽𝓪𝓬𝓽 𝓤𝓼</h1>
+        <div className="contact-page">
         <div className="contact-left">
           <img src={contact} alt="" />
         </div>
@@ -28,13 +29,14 @@ const Contact = () => {
               placeholder="Your Message"
             ></textarea>
 
-            <Link type="button" className="product-btn">
-              Submit
+            <Link to="/" className="product-btn">
+            𝓢𝓾𝓫𝓶𝓲𝓽
             </Link>
           </form>
         </div>
  
     </div>
+      </div>
   );
 };
 

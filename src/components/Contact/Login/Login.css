@@ -1,0 +1,28 @@
+.login-page h1{
+    text-align: center;
+    font-size: 3rem;
+  color: var(--purple);
+  margin-top: 2rem;
+}
+
+.login-page{
+    display: grid;
+    place-items: center;
+    height:82vh;
+}
+
+.login-page form{
+    display:flex;
+    flex-direction: column;
+    /* background-color:#EDE7E7; */
+}
+.login-page form div{
+    background-color:#EDE7E7;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 15px;
+}
+
+.login-page form div i{
+    color: var(--purple);
+}

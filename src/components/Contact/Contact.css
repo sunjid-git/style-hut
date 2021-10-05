@@ -1,3 +1,9 @@
+.contact-page-container h1{
+    text-align: center;
+    font-size: 3rem;
+  color: var(--purple);
+  margin-top: 2rem;
+}
 .contact-page img {
   width: 75%;
   /* background-color: rgb(71, 37, 37); */
@@ -9,8 +15,6 @@
 }
 .contact-right {
     width: 75%;
-   
-  /* background-color: rgb(150, 54, 54); */
 }
 .contact-page form{
     align-items: center;
