@@ -1,6 +1,6 @@
 ### `Style Hut`
 
-# [Style Hut](https://style-hut.netlify.app/)
+# [Style Hut - LIVE](https://style-hut.netlify.app/)
 
 
 ## `Functionality`
