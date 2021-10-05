@@ -3,7 +3,6 @@ import "./Home.css";
 import ProductHome from "../ProductHome/ProductHome";
 import illustration from "../../images/illustration.png";
 import { Link } from "react-router-dom";
-import Login from "../Contact/Login/Login";
 import Contact from "../Contact/Contact";
 
 const Home = () => {
@@ -16,7 +15,7 @@ const Home = () => {
               <h1>We care our Clients</h1>
               <p>
                 Visit and be a part of our family. Enjoy the premium quality
-                products with special discount coupon only waitng for you.
+                products with special discount coupon only waiting for you.
               </p>
               <Link to="/ProductHome" className="product-btn">
                 <i className="fas fa-globe"></i>
