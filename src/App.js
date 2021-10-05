@@ -6,6 +6,8 @@ import Footer from "./components/HeaderAndFooter/Footer";
 import Header from "./components/HeaderAndFooter/Header";
 import Home from "./components/Home/Home";
 import ProductHome from "./components/ProductHome/ProductHome";
+import Login from "./components/Contact/Login/Login";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -27,6 +29,10 @@ function App() {
         
         <Route path="/products/:id">
           <Product></Product>
+        </Route>
+
+        <Route path="/contact">
+          <Contact></Contact>
         </Route>
 
       </Switch>

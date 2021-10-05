@@ -2,6 +2,7 @@ header {
   background-color: var(--purple);
   height: 100%;
   display: grid;
+
 }
 .nav-elements {
   height: 10vh;

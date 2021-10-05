@@ -3,6 +3,8 @@ import "./Home.css";
 import ProductHome from "../ProductHome/ProductHome";
 import illustration from "../../images/illustration.png";
 import { Link } from "react-router-dom";
+import Login from "../Contact/Login/Login";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -32,6 +34,7 @@ const Home = () => {
         </div>
       </div>
       <ProductHome></ProductHome>
+      <Contact></Contact>
     </>
   );
 };
